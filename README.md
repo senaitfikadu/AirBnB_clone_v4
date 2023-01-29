@@ -1,18 +1,35 @@
-# <img src="https://intranet.hbtn.io/assets/holberton-logo-default-27055cb2f875eb10bf3b3942e52a24581bc0667695bdc856d4f08b469b678000.png" width="30"> AirBnB Clone V.4 - Web dynamic
+0x06. AirBnB clone - Web dynamic
 
-## Synopsis
+Learning Objectives
 
-This is the 4th version of our AirBnB clone project. We will be using python3, RESTful API, MySQL, Flask, and jQuery AJAX
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+General
 
-<p><img src="https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step5.png" alt="step2"></p>
+    How cool it is to request your own API
+    How to modify an HTML element style
+    How to get and update an HTML element content
+    How to modify the DOM
+    How to make a GET request with JQuery Ajax
+    How to make a POST request with JQuery Ajax
+    How to listen/bind to DOM events
+    How to listen/bind to user events
 
-## Table of Contents
+Before starting the project…
 
-- [Environment](#environment)
-- [Installation](#installation)
-- [File Descriptions](#file-descriptions)
-- [Usage](#usage)
-- [Examples of use](#examples-of-use)
-- [Bugs](#bugs)
-- [Authors](#authors)
-- [License](#license)
+You will work on a codebase using Flasgger, you will need to install it locally first before starting the RestAPI:
+
+$ sudo apt-get install -y python3-lxml
+$ sudo pip3 install flask_cors # if it was not installed yet
+$ sudo pip3 install flasgger
+
+If the RestAPI is not starting, please read the error message. Based on the(ses) error message(s), you will have to troubleshoot potential dependencies issues.
+
+Here some solutions:
+jsonschema exception
+
+$ sudo pip3 uninstall -y jsonschema
+$ sudo pip3 install jsonschema==3.0.1
+
+No module named 'pathlib2'
+
+$ sudo pip3 install pathlib2
